@@ -171,7 +171,7 @@ def check_data(data_set):
             Path with original OPPORTUNITY zip file
     :return:
     """
-    print 'Checking dataset {0}'.format(data_set)
+    print('Checking dataset {0}'.format(data_set))
     data_dir, data_file = os.path.split(data_set)
     # When a directory is not provided, check if dataset is in the data directory
     if data_dir == "" and not os.path.isfile(data_set):
